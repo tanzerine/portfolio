@@ -108,51 +108,6 @@ export default function Portfolio() {
     return positions[index % positions.length];
   };
 
-  const resumeContent = {
-    name: "TaeYoon Lee",
-    title: "Creative Developer & Designer",
-    summary: "Passionate about creating innovative digital experiences that combine technology and design.",
-    experience: [
-      {
-        role: "Senior Creative Developer",
-        company: "Digital Innovation Co",
-        period: "2020 - Present",
-        description: "Led creative development for major client projects, combining technical expertise with design thinking."
-      },
-      {
-        role: "UX Engineer",
-        company: "Tech Solutions Inc",
-        period: "2018 - 2020",
-        description: "Bridged the gap between design and development, creating seamless user experiences."
-      }
-    ],
-    skills: [
-      "Creative Development",
-      "Interactive Design",
-      "UX/UI Design",
-      "Front-end Development",
-      "Three.js",
-      "WebGL",
-      "React",
-      "TypeScript"
-    ],
-    education: {
-      degree: "Bachelor of Design in Interactive Digital Media",
-      school: "Design University",
-      year: "2018"
-    }
-  };
-
-  const techCategories = [
-    'Design',
-    'Product',
-    'Business',
-    'Development',
-    'Marketing',
-    'Experimental',
-    'Else'
-  ];
-
 
   const getProjectStyle = (
     project: Project,
