@@ -10,8 +10,8 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    name: "Brand Identity",
-    size: { width: 460, height: 320 },
+    name: "Fragile(3)",
+    size: { width: 1920, height: 1080 },
     technologies: ['Else','Experimental','Marketing','Development','Business','Product','Design'],
     description: "Fragile 3 is a open platform that distributes upcoming artits work. We help you find new aesthetics for your home. You can also visit our website and take a look at artists interview. We support artist through reinforcing there business. We focus on supporting the comercial side of the art market so that artist doesn't have to waist time learning about facebook.\n\nThis is a startup that I founded in 2022. I started from the question 'why are so many good artist starving even now days?' it was a long way of finding out the reasons and shapes of the market. but we manage to make a working BM that benefits both artists and collector."  },
   {
