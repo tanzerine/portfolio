@@ -15,10 +15,12 @@ export interface Size {
 export interface Project {
   id: number;
   name: string;
-  size: Size;  // Changed from number to Size interface
+  size: { width: number; height: number };
   technologies: TechCategory[];
-  description?: string;
+  description: string;
+  images: string[]; // Add this new field
 }
+
 
 export interface Position {
   top: number;

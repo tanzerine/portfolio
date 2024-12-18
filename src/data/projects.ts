@@ -23,11 +23,11 @@ export const projects: Project[] = [
 
     {
     id: 3,
-    name: "Mobile App",
+    name: "AI diary App : QUO",
     size: { width: 200, height: 500 },
     technologies: ['Else','Experimental','Marketing','Development','Business','Product','Design'],
     description: "iOS/Android application",
-    images:['/images/fragile-image.png']
+    images:[]
 
   },
   {
@@ -59,11 +59,11 @@ export const projects: Project[] = [
   },
   {
     id: 7,
-    name: "Analytics Dashboard",
+    name: "Baekjeong illustration",
     size: { width: 120, height: 170 },
-    technologies: ['Else','Experimental','Marketing','Development','Business','Product','Design'],
+    technologies: ['Else','Experimental','Marketing','Business','Design'],
     description: "Business intelligence tool",
-    images:['/images/fragile-image.png']
+    images:[]
 
   },
   {
@@ -81,16 +81,16 @@ export const projects: Project[] = [
     size: { width: 300, height: 100 },
     technologies: ['Marketing','Development','Product','Design'],
     description: "Business intelligence tool",
-    images:['/images/fragile-image.png']
+    images:[]
 
   },
   {
     id: 10,
-    name: "Design System",
+    name: "Pet now App Design",
     size: { width: 50, height: 60 },
-    technologies: ['Else','Experimental','Marketing','Development','Business','Product','Design'],
+    technologies: ['Else','Marketing','Business','Product','Design'],
     description: "Component library", 
-    images:['/images/fragile-image.png']
+    images:['']
 
 
   }
